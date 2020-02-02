@@ -7,4 +7,4 @@
 
    introduction
    results
-   zreferences.rst
+   zreferences
