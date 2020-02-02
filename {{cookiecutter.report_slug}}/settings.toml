@@ -1,0 +1,6 @@
+[default]
+project_title = "{{ cookiecutter.project_title }}"
+copyright = "{{ cookiecutter.copyright }}"
+author = "{{ cookiecutter.author }}"
+printed = {{ cookiecutter.printed|lower }}
+extensions = []

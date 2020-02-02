@@ -1,0 +1,8 @@
+{
+    "report_slug": "report",
+    "project_title": "My Project",
+    "copyright": "",
+    "author": "",
+    "latex_target": "{{ cookiecutter.project_title|replace(' ', '-')|lower }}.tex",
+    "printed": true
+}
