@@ -1,0 +1,1 @@
+This is for HTML outputs, and other static files such as report logos and graphics.

@@ -1,0 +1,1 @@
+This folder is for report figures only.  This might be populated via multiple scripts that specifically generate report-worthy diagrams and figures.
