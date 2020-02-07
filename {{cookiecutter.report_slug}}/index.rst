@@ -5,6 +5,5 @@
    :maxdepth: 2
    :caption: Contents:
 
-   introduction
-   results
+   cheatsheet
    zreferences
