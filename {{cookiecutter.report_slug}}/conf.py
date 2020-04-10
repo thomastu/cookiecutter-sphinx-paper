@@ -32,7 +32,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # Parsers for source file extensions
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.txt': 'markdown',
     '.md': 'markdown',
 }
 
@@ -117,9 +116,37 @@ latex_elements = {
 
 # -- HTML Settings -----
 
+html_theme = "haiku"
+
+html_static_path = ["static"]
+
+
+# -- docx Settings -----
+
+docx_documents = [
+    (master_doc, f"{project_slug}.docx", {
+        "title": project,
+        "creator": author
+     }, False),
+]
+docx_coverpage = False
+docx_style = "static/style.docx"
+
+# -- HTML Settings -----
+
 html_theme = "alabaster"
 
 html_static_path = ["static"]
+
+html_theme_options = {
+    "nosidebar": True,
+    "relbarbgcolor": "black",
+}
+
+
+# -- TODOS Settings -----
+
+todo_include_todos = True
 
 
 # -- TODOS Settings -----
