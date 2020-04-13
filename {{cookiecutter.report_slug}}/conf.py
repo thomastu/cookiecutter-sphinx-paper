@@ -69,6 +69,9 @@ extensions = [
 
     # Markdown Support
     "recommonmark",
+
+    # Internal Header References
+    "sphinx.ext.autosectionlabel",
 ]
 
 # TODO: Add in other extensions in the toml file
