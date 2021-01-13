@@ -78,12 +78,14 @@ extensions = [
 # Pseudo-code: 
 extensions.extend(filter(lambda ext: ext not in extensions, settings.get("extensions")))
 
+# -- sphinxcontrib-bibtex settings
+bibtex_bibfiles = ["references.bib"]
+bibtex_default_style = "unsrt"
 
 # -- Figure and Caption Settings -----
 
 # See: https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-numfig
 numfig = True
-
 
 # -- LaTeX Settings -----
 # See: https://www.sphinx-doc.org/en/master/latex.html
